@@ -19,3 +19,4 @@ print("Done")
 "outputs":[{"name":"","type":"uint256"}],
  "type":"function"
 "lose:(255)"
+yes
