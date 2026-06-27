@@ -16,3 +16,5 @@ print("Raw Balance:", balance)
 print("Connected:", w3.is_connected())
 print("Done")
 {-}
+"outputs":[{"name":"","type":"uint256"}],
+ "type":"function"
