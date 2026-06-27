@@ -20,3 +20,4 @@ print("Done")
  "type":"function"
 "lose:(255)"
 yes
+{}
