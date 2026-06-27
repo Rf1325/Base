@@ -21,3 +21,4 @@ print("Done")
 "lose:(255)"
 yes
 {}
+so (Yes) or (Not)
