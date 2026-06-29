@@ -23,3 +23,4 @@ yes
 {}
 so (Yes) or (Not)
 abi = [{
+ "constant":Fulse,
