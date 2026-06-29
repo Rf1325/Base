@@ -24,3 +24,4 @@ yes
 so (Yes) or (Not)
 abi = [{
  "constant":Fulse,
+ "inputs":[{"name":"owner","type":"address"}],
