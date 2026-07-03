@@ -30,3 +30,4 @@ abi = [{
  "type":"function"
 }]
 const balances = await kit.getBalances({
+sources: [{ adapter: evmAdapter }],
