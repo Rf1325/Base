@@ -29,3 +29,4 @@ abi = [{
 "outputs":[{"name":"","type":"uint256"}],
  "type":"function"
 }]
+const balances = await kit.getBalances({
