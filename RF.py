@@ -32,3 +32,5 @@ abi = [{
 const balances = await kit.getBalances({
 sources: [{ adapter: evmAdapter }],
  networkType: "testnet",
+includePending: true,
+})
