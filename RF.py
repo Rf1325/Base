@@ -44,3 +44,4 @@ chain: "Arc_Testnet",
   recipientAddress,
   },
 })
+console.log("Estimated fees:", estimate.fees)
