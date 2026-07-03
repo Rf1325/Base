@@ -41,3 +41,6 @@ token: "USDC",
   to: {
 adapter: evmAdapter,
 chain: "Arc_Testnet",
+  recipientAddress,
+  },
+})
