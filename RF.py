@@ -39,3 +39,4 @@ amount: "100",
 token: "USDC",
   from: [{ adapter: evmAdapter }, { adapter: solanaAdapter }],
   to: {
+adapter: evmAdapter,
