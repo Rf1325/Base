@@ -36,3 +36,4 @@ includePending: true,
 })
 const estimate = await kit.estimateSpend({
 amount: "100",
+token: "USDC",
