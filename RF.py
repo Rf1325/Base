@@ -35,3 +35,4 @@ sources: [{ adapter: evmAdapter }],
 includePending: true,
 })
 const estimate = await kit.estimateSpend({
+amount: "100",
