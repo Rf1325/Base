@@ -40,3 +40,4 @@ token: "USDC",
   from: [{ adapter: evmAdapter }, { adapter: solanaAdapter }],
   to: {
 adapter: evmAdapter,
+chain: "Arc_Testnet",
