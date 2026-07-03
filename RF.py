@@ -34,3 +34,4 @@ sources: [{ adapter: evmAdapter }],
  networkType: "testnet",
 includePending: true,
 })
+const estimate = await kit.estimateSpend({
