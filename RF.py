@@ -67,3 +67,4 @@ type: "BALANCE",
 message: "Insufficient ETH on Ethereum to cover gas fees",
 trace: {
 balance: "0",
+ walletAddress: "<ownerAdapter wallet address>",
