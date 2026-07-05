@@ -45,3 +45,4 @@ chain: "Arc_Testnet",
   },
 })
 console.log("Estimated fees:", estimate.fees)
+const delegateConfig = {
