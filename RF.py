@@ -47,3 +47,5 @@ chain: "Arc_Testnet",
 console.log("Estimated fees:", estimate.fees)
 const delegateConfig = {
  from: { adapter: ownerAdapter, chain: "Ethereum" },
+ delegateAddress,
+}
