@@ -58,3 +58,5 @@ status = await kit.unifiedBalance.getDelegateStatus(delegateConfig)
 if (status !== "ready") {
 throw new Error("Delegate is not ready for spend()")
 }
+KitError:
+{
