@@ -56,3 +56,4 @@ await new Promise((resolve) => setTimeout(resolve, 5_000))
 status = await kit.unifiedBalance.getDelegateStatus(delegateConfig)
 }
 if (status !== "ready") {
+throw new Error("Delegate is not ready for spend()")
