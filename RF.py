@@ -60,3 +60,4 @@ throw new Error("Delegate is not ready for spend()")
 }
 KitError:
 {
+name: "BALANCE_INSUFFICIENT_GAS",
