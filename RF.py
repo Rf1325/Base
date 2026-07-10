@@ -71,3 +71,7 @@ balance: "0",
    chain: "Ethereum",
   },
 }
+import { createViemAdapterFromProvider } from "@circle-fin/adapter-viem-v2";
+const adapter = await createViemAdapterFromProvider({
+  provider: window.ethereum,
+});
