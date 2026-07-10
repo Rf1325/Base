@@ -75,3 +75,8 @@ import { createViemAdapterFromProvider } from "@circle-fin/adapter-viem-v2";
 const adapter = await createViemAdapterFromProvider({
   provider: window.ethereum,
 });
+// Swap: percentage-based
+config: { customFee: { percentageBps: 50, recipientAddress: "0xYourWallet" } }
+
+// Bridge and Unified Balance spend: absolute value
+config: { customFee: { value: "0.10", recipientAddress: "0xYourWallet" } }
