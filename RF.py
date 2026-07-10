@@ -80,3 +80,10 @@ config: { customFee: { percentageBps: 50, recipientAddress: "0xYourWallet" } }
 
 // Bridge and Unified Balance spend: absolute value
 config: { customFee: { value: "0.10", recipientAddress: "0xYourWallet" } }
+const result = await kit.swap({
+  from: { adapter, chain: "Arc" },
+  tokenIn: "USDT",
+  tokenOut: "USDC",
+  amountIn: "1.00",
+  config: { kitKey: process.env.KIT_KEY },
+});
