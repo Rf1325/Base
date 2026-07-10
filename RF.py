@@ -113,7 +113,6 @@ const result = await kit.swap({
   to: { recipientAddress: "0xDifferentWallet" },
   config: { kitKey: process.env.KIT_KEY },
 });
-kit.on("bridge.approve", (e) => console.log("Approved", e.values.txHash));
 const result = await kit.swap({
   from: { adapter, chain: "Arc" },
   tokenIn: "USDT",
