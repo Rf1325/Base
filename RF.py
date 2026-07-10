@@ -87,3 +87,11 @@ const result = await kit.swap({
   amountIn: "1.00",
   config: { kitKey: process.env.KIT_KEY },
 });
+const estimate = await kit.estimateSwap({
+  from: { adapter, chain: "Arc" },
+  tokenIn: "EURC",
+  tokenOut: "USDC",
+  amountIn: "1.00",
+  config: { kitKey: process.env.KIT_KEY },
+});
+console.log(estimate.estimatedOutput.amount, estimate.stopLimit.amount);
