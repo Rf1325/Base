@@ -104,3 +104,4 @@ const result = await kit.swap({
   to: { chain: "Base", recipientAddress: "0xRecipient" },
   config: { kitKey: process.env.KIT_KEY },
 });
+const final = await kit.waitForSwap({ result, kitKey: process.env.KIT_KEY });
