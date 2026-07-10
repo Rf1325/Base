@@ -95,3 +95,12 @@ const estimate = await kit.estimateSwap({
   config: { kitKey: process.env.KIT_KEY },
 });
 console.log(estimate.estimatedOutput.amount, estimate.stopLimit.amount);
+// Cross-chain: swap USDC on Ethereum, receive on Base at a specific wallet
+const result = await kit.swap({
+  from: { adapter, chain: "Ethereum" },
+  tokenIn: "USDC",
+  tokenOut: "USDC",
+  amountIn: "100",
+  to: { chain: "Base", recipientAddress: "0xRecipient" },
+  config: { kitKey: process.env.KIT_KEY },
+});
