@@ -115,7 +115,6 @@ const result = await kit.swap({
 });
 kit.on("bridge.approve", (e) => console.log("Approved", e.values.txHash));
 kit.on("bridge.burn", (e) => console.log("Burned", e.values.txHash));
-kit.on("bridge.attestation", () => console.log("Attestation received"));
 const result = await kit.swap({
   from: { adapter, chain: "Arc" },
   tokenIn: "USDT",
