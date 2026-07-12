@@ -155,3 +155,4 @@ try {
     retry: { attestation, signature },
       },
     })
+    console.log("Retry success:", retryResult.txHash)
