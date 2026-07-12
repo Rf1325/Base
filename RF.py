@@ -156,3 +156,7 @@ try {
       },
     })
     console.log("Retry success:", retryResult.txHash)
+  } else {
+    throw error
+  }
+}
