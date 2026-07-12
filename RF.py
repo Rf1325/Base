@@ -137,3 +137,4 @@ KitError:
 import { AppKit, KitError } from "@circle-fin/app-kit"
 const kit = new AppKit()
 try {
+  const result = await kit.unifiedBalance.spend(params)
