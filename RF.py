@@ -142,3 +142,4 @@ try {
 } catch (error) {
   if (
     error instanceof KitError &&
+    error.recoverability === "RESUMABLE" &&
