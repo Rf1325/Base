@@ -122,3 +122,4 @@ const result = await kit.swap({
   config: { kitKey: process.env.KIT_KEY },
 });
 KitError:
+{
