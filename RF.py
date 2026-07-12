@@ -132,3 +132,4 @@ KitError:
     balance: "0",
     walletAddress: "<ownerAdapter wallet address>",
     chain: "Ethereum",
+  },
