@@ -146,3 +146,4 @@ try {
     error.cause?.trace
   ) {
     const { attestation, signature } = error.cause.trace as {
+      attestation: string
