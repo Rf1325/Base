@@ -121,3 +121,4 @@ const result = await kit.swap({
   to: { recipientAddress: "0xDifferentWallet" },
   config: { kitKey: process.env.KIT_KEY },
 });
+KitError:
