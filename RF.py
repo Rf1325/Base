@@ -145,3 +145,4 @@ try {
     error.recoverability === "RESUMABLE" &&
     error.cause?.trace
   ) {
+    const { attestation, signature } = error.cause.trace as {
