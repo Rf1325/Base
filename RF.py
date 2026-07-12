@@ -128,3 +128,4 @@ KitError:
   type: "BALANCE",
   recoverability: "FATAL",
   message: "Insufficient ETH on Ethereum to cover gas fees",
+  trace: {
