@@ -144,3 +144,4 @@ try {
     error instanceof KitError &&
     error.recoverability === "RESUMABLE" &&
     error.cause?.trace
+  ) {
