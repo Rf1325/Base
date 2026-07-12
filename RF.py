@@ -150,3 +150,4 @@ try {
       signature: string
     }
     const retryResult = await kit.unifiedBalance.spend({
+      ...params,
