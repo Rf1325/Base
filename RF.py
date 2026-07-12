@@ -151,3 +151,4 @@ try {
     }
     const retryResult = await kit.unifiedBalance.spend({
       ...params,
+      config: {
