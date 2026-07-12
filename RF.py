@@ -134,3 +134,4 @@ KitError:
     chain: "Ethereum",
   },
 }
+import { AppKit, KitError } from "@circle-fin/app-kit"
