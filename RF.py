@@ -149,3 +149,4 @@ try {
       attestation: string
       signature: string
     }
+    const retryResult = await kit.unifiedBalance.spend({
