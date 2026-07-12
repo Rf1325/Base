@@ -123,3 +123,4 @@ const result = await kit.swap({
 });
 KitError:
 {
+  name: "BALANCE_INSUFFICIENT_GAS",
