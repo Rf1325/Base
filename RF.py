@@ -125,3 +125,4 @@ KitError:
 {
   name: "BALANCE_INSUFFICIENT_GAS",
   code: 9002,
+  type: "BALANCE",
