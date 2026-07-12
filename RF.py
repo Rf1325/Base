@@ -133,3 +133,4 @@ KitError:
     walletAddress: "<ownerAdapter wallet address>",
     chain: "Ethereum",
   },
+}
