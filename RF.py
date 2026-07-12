@@ -141,3 +141,4 @@ try {
   console.log("Success:", result.txHash)
 } catch (error) {
   if (
+    error instanceof KitError &&
